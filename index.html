@@ -12,45 +12,45 @@
 <link rel="stylesheet" href="css/fontello.css">
 </head>
 <body>
-  <header>
-    <h2 class="logo">Corporativo</h2>
+  <header class="logo">
+    <h2 class="logo__titulo">Corporativo</h2>
     <input type="checkbox" id="check">
-    <label for="check" class="mostrar-menu">
+    <label for="check" class="logo__abrir">
         &#8801
     </label>
     <nav class="menu">
-        <a href="#">Inicio</a>
-        <a href="#">Sobre Nosotros</a>
-        <a href="#">Blog</a>
-        <label for="check" class="esconder-menu">
+        <a class="menu__a" href="#">Inicio</a>
+        <a class="menu__a" href="#">Sobre Nosotros</a>
+        <a class="menu__a" href="#">Blog</a>
+        <label for="check" class="menu__cerrar">
             &#215
         </label>
     </nav>
   </header>
     
-  <section id="banner">
+  <section class="banner">
     <div class="contenido-banner">
-      <h3>Corporative: <span> Diseño Web Responsive <br>Mobile Friendly</span></h3>
-      <a href="#" class="boton-empezar">Empezar</a>
+      <h3 class="banner__titulo">Corporative: <span class="banner__span"> Diseño Web Responsive <br>Mobile Friendly</span></h3>
+      <a href="#" class="banner__empezar">Empezar</a>
     </div>
   </section> 
-  <section id="personas">
+  <section class="personas">
     <div>
-      <img src="img/p-1.jpg" width="200">
-      <h4>Lorem ipsum dolor sit amet.</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <a href="#" class="boton-saber-mas">Saber Mas</a>
+      <img class="personas__imagen" src="img/p-1.jpg" width="200">
+      <h4 class="personas__titulo">Lorem ipsum dolor sit amet.</h4>
+    <p class="personas__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="boton">Saber Mas</a>
     </div>
     <div>
-      <img src="img/p-2.jpg" width="200">
-      <h4>Lorem ipsum dolor sit amet.</h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-    <a href="#" class="boton-saber-mas">Saber Mas</a>
+      <img class="personas__imagen" src="img/p-2.jpg" width="200">
+      <h4 class="personas__titulo">Lorem ipsum dolor sit amet.</h4>
+    <p class="personas__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="boton">Saber Mas</a>
     </div>
   </section>
 
-  <section id="iconos">
-    <div class="iconos">
+  <section class="iconos">
+    <div class="icono">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#800000" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -59,8 +59,8 @@
           <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
           <line x1="3" y1="9" x2="7" y2="9" />
         </svg>
-      <h6>Rapido</h6>
-      <p>Lorem ipsum dolor sit.</p>
+      <h6 class="icono__titulo">Rapido</h6>
+      <p class="icono__texto">Lorem ipsum dolor sit.</p>
     </div>
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-disabled-2" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#800000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -69,8 +69,8 @@
           <path d="M9 11a5 5 0 1 0 3.95 7.95" />
           <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" />
         </svg>
-      <h6>Accesible</h6>
-      <p>Lorem ipsum dolor sit.</p>
+      <h6 class="icono__titulo">Accesible</h6>
+      <p class="icono__texto">Lorem ipsum dolor sit.</p>
     </div>
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#800000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -79,49 +79,49 @@
           <line x1="11" y1="5" x2="13" y2="5" />
           <line x1="12" y1="17" x2="12" y2="17.01" />
         </svg>
-      <h6>Responsive</h6>
-      <p>Lorem ipsum dolor sit.</p>
+      <h6 class="icono__titulo">Responsive</h6>
+      <p class="icono__texto">Lorem ipsum dolor sit.</p>
     </div>
     </div>
-    <div class="boton-iconos">
-      <a href="#" class="boton-saber-mas">Saber Mas</a>
+    <div class="icono__boton">
+      <a href="#" class="boton">Saber Mas</a>
     </div>
   </section>
-  <section id="contacto">
+  <section class="contacto">
     <form class="formulario">
-      <fieldset>
-        <legend>Contacta con Nosotros</legend>
+      <fieldset class="formulario__campo">
+        <legend class="formulario__leyenda">Contacta con Nosotros</legend>
         <div class="campos">
           
           <div class="campo">
-            <input class="txt" type="nombre" placeholder="Nombre">
+            <input class="campo__texto" type="nombre" placeholder="Nombre">
           </div>
 
           <div class="campo">
-            <input class="txt" type="tel" placeholder="Telefono">
+            <input class="campo__texto" type="tel" placeholder="Telefono">
           </div>
 
           <div class="campo">
-            <input class="txt" type="email" placeholder="Email">
+            <input class="campo__texto" type="email" placeholder="Email">
           </div>
 
           <div class="campo">
-           <textarea class="txt mensaje" placeholder="Mensaje"></textarea>
+           <textarea class="campo__texto campo__textarea" placeholder="Mensaje"></textarea>
           </div>
 
         </div>
       </fieldset>
     </form>
 
-    <div class="alinear">
-      <input class="enviar" type="submit" value="Enviar">
+    <div class="flex">
+      <input class="flex__enviar" type="submit" value="Enviar">
     </div>
   
   </section>
 
   <footer class="footer">
-    <p>&copy; 2021 francisco</p>
-    <img src="img/g-9.png">
+    <p class="footer__texto"> francisco</p>
+    <img class="footer__imagen" src="img/f-2.png">
   </footer>
 </body>
 </html>

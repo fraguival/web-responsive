@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body {
     font-family: 'Teko', sans-serif;
     background: #422;
+    margin: 0;
+    padding: 0;
 }
 .logo {
     display: flex;
@@ -160,10 +160,12 @@ body {
     margin: 0 auto;
     padding: 50px 0;
     color: #fff;
+    border-radius: 16px;
 }
 .formulario {
     width: 90%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .formulario__campo {
     border: none;
@@ -188,7 +190,10 @@ body {
     color: #fff;
     font-family: 'Teko', sans-serif;
     font-size: 20px;
-    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 150px;
 }
 .campo__texto {
     background: #ED4C67;
@@ -197,7 +202,7 @@ body {
     font-size: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    border: 2px solid #fff;
+    border: 2px solid;
     padding: 10px 5px;
     outline: 0;
     width: 100%;
@@ -235,6 +240,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background: #ED4C67;
+    margin-top: 12px;
     padding: 15px;
     color: #fff;
     font-size: 24px;

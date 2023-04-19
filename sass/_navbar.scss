@@ -1,0 +1,61 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #454545;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 8px;
+}
+.menu {
+    position: absolute;
+    top: 86px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #454545;
+    width: 40%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: height .5s linear;
+}
+@media (min-width: 768px) {
+    .turn {
+        display: none;
+    }
+    .menu {
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        background: none;
+        width: 100%;
+        height: auto;
+    }
+}
+.menu a {
+    color: #fff;
+    margin-left: 12px;
+    padding: 8px 12px;
+}
+.menu a:hover {
+    background-color: #f2921d;
+    color: #000;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.look {
+    height: 112px;
+}
+.turn {
+    color: #fff;
+    font-size: 32px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: .5s;
+}
+.gyre {
+    transform: rotate(180deg);
+}

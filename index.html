@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,119 +6,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web-responsive</title>
-<link rel="stylesheet" href="css/estilos.css">
-<link rel="icon" href="img/f-1.png">
+    <link href="https://file.myfontastic.com/TkGR3cWyWyGN9nw6n6bYHh/icons.css" rel="stylesheet">
+<link rel="stylesheet" href="sass/custom.css">
 </head>
 <body>
-  <header class="logo">
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">Corporativo</h1>
+        </header>
 
-    <h2 class="logo__titulo">Corporativo</h2>
+        <nav class="navbar">
+            <div class="menu">
+                <a href="#">Inicio</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+            </div>
+
+            <div class="turn">|||</div>
+        </nav>
+
+        <section class="banner">
+            <img src="img/banner.jpg">
+
+            <div class="banner-content">
+                <h2>Corporativo</h2>
+                <p>diseño web adaptable compatible</p>
+                <br>
+                <a href="#" class="btn">Empezar</a>
+            </div>
+        </section>
+
+        <section class="people">
+            <div class="pair">
+                <img src="img/p-1.jpg">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="right">
+                    <a href="#" class="btn">Saber Mas</a>
+                </div>
+            </div>
     
-    <a href="#menu" class="header__on">&#8801</a>
-    <a href="#" class="header__off">&#215;</a> 
+            <div class="pair">
+                <img src="img/p-2.jpg">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="right">
+                    <a href="#" class="btn">Saber Mas</a>
+                </div>
+            </div>
+        </section>
 
-    <nav class="menu" id="menu">
-        <a class="menu__link" href="#">Inicio</a>
-        <a class="menu__link" href="#">Nosotros</a>
-        <a class="menu__link" href="#">Blog</a>
-    </nav>
+        <section class="icons">
+            <div class="third">
+                <h3>Rapido</h3>
+                <div class="icon">
+                    <span class="icon-jet"></span>
+                </div>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="third">
+                <h3>Accesible</h3>
+                <div class="icon">
+                    <span class="icon-disabled"></span>
+                </div>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="third">
+                <h3>Adaptable</h3>
+                <div class="icon">
+                    <span class="icon-tablet"></span>
+                </div>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </section>
 
-  </header>
+        <section class="contacto">
+            <form class="form">
+                <fieldset>
+                    <legend>Contactanos</legend>
+
+                    <div class="fields">
+                        <div class="field">
+                            <input type="nombre" placeholder="Nombre">
+                        </div>
+        
+                        <div class="field">
+                            <input type="tel" placeholder="Telefono">
+                        </div>
+        
+                        <div class="field">
+                            <input type="email" placeholder="Email">
+                        </div>
+            
+                        <div class="field">
+                            <textarea></textarea>
+                        </div>
+                    </div>
     
-  <section class="banner">
-    <div class="contenido-banner">
-      <h3 class="banner__titulo">Corporative: <span class="banner__span"> Diseño Web Responsive <br>Mobile Friendly</span></h3>
-      <a href="#" class="banner__empezar">Empezar</a>
-    </div>
-  </section> 
-  <section class="personas">
-    <div>
-      <img class="personas__imagen" src="img/p-1.jpg" width="200">
-      <h4 class="personas__titulo">Lorem ipsum dolor sit amet.</h4>
-    <p class="personas__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <a href="#" class="boton">Saber Mas</a>
-    </div>
-    <div>
-      <img class="personas__imagen" src="img/p-2.jpg" width="200">
-      <h4 class="personas__titulo">Lorem ipsum dolor sit amet.</h4>
-    <p class="personas__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-    <a href="#" class="boton">Saber Mas</a>
-    </div>
-  </section>
+                    <div class="right">
+                        <a href="#" class="btn">Enviar</a>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
 
-  <section class="iconos">
-    <div class="icono">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#800000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <circle cx="7" cy="17" r="2" />
-          <circle cx="17" cy="17" r="2" />
-          <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
-          <line x1="3" y1="9" x2="7" y2="9" />
-        </svg>
-      <h6 class="icono__titulo">Rapido</h6>
-      <p class="icono__texto">Lorem ipsum dolor sit.</p>
+        <footer class="footer">
+            <p>Guimo Val</p>
+        </footer>
     </div>
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-disabled-2" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#800000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <circle cx="17" cy="6" r="2" />
-          <path d="M9 11a5 5 0 1 0 3.95 7.95" />
-          <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" />
-        </svg>
-      <h6 class="icono__titulo">Accesible</h6>
-      <p class="icono__texto">Lorem ipsum dolor sit.</p>
+
+    <script src="js/main.js"></script>
     </div>
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#800000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <rect x="7" y="4" width="10" height="16" rx="1" />
-          <line x1="11" y1="5" x2="13" y2="5" />
-          <line x1="12" y1="17" x2="12" y2="17.01" />
-        </svg>
-      <h6 class="icono__titulo">Responsive</h6>
-      <p class="icono__texto">Lorem ipsum dolor sit.</p>
-    </div>
-    </div>
-    <div class="icono__boton">
-      <a href="#" class="boton">Saber Mas</a>
-    </div>
-  </section>
-  <section class="contacto">
-    <form class="formulario">
-      <fieldset class="formulario__campo">
-        <legend class="formulario__leyenda">Contacta con Nosotros</legend>
-        <div class="campos">
-          
-          <div class="campo">
-            <input class="campo__texto" type="nombre" placeholder="Nombre">
-          </div>
-
-          <div class="campo">
-            <input class="campo__texto" type="tel" placeholder="Telefono">
-          </div>
-
-          <div class="campo">
-            <input class="campo__texto" type="email" placeholder="Email">
-          </div>
-
-          <div class="campo">
-           <textarea class="campo__texto campo__textarea" placeholder="Mensaje"></textarea>
-          </div>
-
-        </div>
-      </fieldset>
-    </form>
-
-    <div class="flex">
-      <input class="flex__enviar" type="submit" value="Enviar">
-    </div>
-  
-  </section>
-
-  <footer class="footer">
-    <p class="footer__texto"> francisco</p>
-    <img class="footer__imagen" src="img/f-1.png">
-  </footer>
 </body>
 </html>

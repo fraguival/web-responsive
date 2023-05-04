@@ -127,6 +127,12 @@ img {
   border-radius: 12px;
 }
 
+.banner img {
+  height: 480px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .banner-content {
   position: absolute;
   top: 50%;

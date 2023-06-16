@@ -49,7 +49,7 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #454545;
+  background-color: #757575;
   margin-bottom: 12px;
   padding: 12px;
   border-radius: 8px;
@@ -207,7 +207,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #454545;
+  background-color: #757575;
   color: #fff;
   margin-bottom: 12px;
   padding: 12px;
@@ -289,7 +289,7 @@ legend {
 }
 
 .footer {
-  background-color: #454545;
+  background-color: #757575;
   color: #fff;
   margin-bottom: 24px;
   padding: 12px;
